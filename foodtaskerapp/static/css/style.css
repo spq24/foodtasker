@@ -8,6 +8,12 @@ body {
 	background-color: #3F3F63;
 }
 
+.text-white {
+	color: white;
+}
+
+
+
 .btn-pink {
 	color: white;
 	background-color: #EE5462;
@@ -105,4 +111,8 @@ body {
 
 .content {
 	padding: 0 40px;
+}
+
+.content .panel {
+	border: none;
 }

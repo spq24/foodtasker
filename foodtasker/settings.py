@@ -161,7 +161,7 @@ SOCIAL_AUTH_PIPELINE = (
     'social.pipeline.social_auth.social_user',
     'social.pipeline.user.get_username',
     'social.pipeline.user.create_user',
-    'foodtaskerapp.social_auth_pipeline.create_user_by_type', # <
+    'foodtaskerapp.social_auth_pipeline.create_user_by_type', # <--- set the path to the function
     'social.pipeline.social_auth.associate_user',
     'social.pipeline.social_auth.load_extra_data',
     'social.pipeline.user.user_details',
